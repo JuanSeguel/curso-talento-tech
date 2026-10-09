@@ -1,10 +1,3 @@
-// guardar -> editar entrega -> enviar tarea
-// mejoras
-// hacer siempre try catch o promesas con then y catch
-// ordenar codigo (bien identado)
-// agregar README.md 
-// no mandar el repo vacio
-
 if( ! process.argv[2] || ! process.argv[3]){
     console.log('Formato npm start <method> <endpoint> [argumentos]')
 }else{
